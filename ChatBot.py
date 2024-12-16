@@ -1,11 +1,9 @@
-# 라이브러리
-# 파이썬 표준 라이브러리
+# Importing all the required library
 import os
 import json
 from datetime import  datetime
 from operator import itemgetter
 
-# 파이썬 서드파티 라이브러리
 from dotenv import load_dotenv
 import pandas as pd
 import streamlit as st
@@ -19,7 +17,7 @@ from langchain_community.chat_message_histories import StreamlitChatMessageHisto
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.prompts import ChatPromptTemplate
 
-# 타이틀
+# title
 st.markdown("""
     <style>
         .header {

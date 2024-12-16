@@ -43,3 +43,7 @@ pip install -r requirements.txt
 
 cd <project_directory>
 streamlit run app.py
+```
+
+### How it runs
+Please download streamlit_vid or just run this code on the computer!

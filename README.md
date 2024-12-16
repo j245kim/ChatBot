@@ -44,10 +44,13 @@ https://github.com/happy-dragonman <br />
 Install the required libraries to meet the project's dependencies:
 ```bash
 pip install -r requirements.txt
+```
 
+### 2. Run it on Streamlit
+```bash
 cd <project_directory>
 streamlit run app.py
 ```
 
 ### How it runs
-Please download streamlit_vid or just run this code on the computer!
+Feel free to download streamlit_vid or just run this code on the computer!

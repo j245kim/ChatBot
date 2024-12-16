@@ -8,9 +8,9 @@ This is a translated version of code that is written in Korean!
 https://github.com/j245kim/STFO
 
 ## Collaborator
-https://github.com/ChoJunHee-user
-https://github.com/privatepeople
-https://github.com/happy-dragonman
+https://github.com/ChoJunHee-user <br />
+https://github.com/privatepeople <br />
+https://github.com/happy-dragonman <br />
 
 ## Key Features
 

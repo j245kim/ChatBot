@@ -4,6 +4,10 @@
 This project involves developing a chatbot that generates market analysis reports based on real-time cryptocurrency market data and news articles. The goal is to assist users in making informed decisions in the highly volatile cryptocurrency market.
 This is a translated version of code that is written in Korean!
 
+## Too much files?
+Don't worry, after downloading all the files, only file that needs to be run is ChatBot.py! <br />
+The method to run this is written down below.
+
 ## Original file
 https://github.com/j245kim/STFO
 

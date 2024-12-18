@@ -53,4 +53,6 @@ streamlit run app.py
 ```
 
 ### How it runs
-Feel free to download streamlit_vid or just run this code on the computer!
+Feel free to download chatbot_vid or just run this code on the computer!
+<br />
+link: https://github.com/j245kim/Cryptocurrency-ChatBot/blob/main/chatbot_vid.mp4

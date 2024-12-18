@@ -1,11 +1,9 @@
-# 라이브러리
-# 파이썬 표준 라이브러리
+# Library
 import os
 import json
 from datetime import  datetime
 from operator import itemgetter
 
-# 파이썬 서드파티 라이브러리
 from dotenv import load_dotenv
 import pandas as pd
 import streamlit as st
@@ -19,7 +17,7 @@ from langchain_community.chat_message_histories import StreamlitChatMessageHisto
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.prompts import ChatPromptTemplate
 
-# 타이틀
+# Title
 st.markdown("""
     <style>
         .header {
@@ -219,8 +217,8 @@ msgs = StreamlitChatMessageHistory(key="special_app_key")
 
 prompt = ChatPromptTemplate.from_template(
     # Prompt Translation: You are an analyst who answers questions accurately based on coin data and newspaper articles, English question/Korean question.
-    # Write it in English in the form of a credible business report.
-    """너는 코인데이터와 신문기사를 바탕으로 물음에 정확하게 답변하는 애널리스트이다, 영어질문/한국어 질문을. 공신력있는 보고서 형태로 영어로 작성해줘 
+    # Write it in English in the form of a credible business report. Don't worry about adding my name info to the report.
+    """너는 코인데이터와 신문기사를 바탕으로 물음에 정확하게 답변하는 애널리스트이다, 영어질문/한국어 질문을. 공신력있는 보고서 형태로 영어로 작성해줘.
 
 #Previous Chat History:
 {chat_history}
